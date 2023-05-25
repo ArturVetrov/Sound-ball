@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & display=swap');
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: #FFFFF0;
   max-width: 500px;
@@ -9,7 +13,7 @@ body {
 }
 
 .container {
-  padding: 20px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,6 +23,7 @@ body {
   font-size: 50px;
   color: rgb(116, 116, 220);
   margin-bottom: 50px;
+  margin-top: 0;
 }
 
 .btn-list {
@@ -37,8 +42,8 @@ p {
 .btn1 {
   background: url(../images/1.png) no-repeat;
   background-size: contain;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   border: 1px solid rgb(91, 91, 254);
 }
@@ -46,8 +51,8 @@ p {
 .btn2 {
   background: url(../images/2.png) no-repeat;
   background-size: contain;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   border: 1px solid rgb(91, 91, 254);
 }
@@ -55,8 +60,8 @@ p {
 .btn3 {
   background: url(../images/3.png) no-repeat;
   background-size: contain;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   border: 1px solid rgb(91, 91, 254);
 }
@@ -64,8 +69,8 @@ p {
 .btn4 {
   background: url(../images/4.png) no-repeat;
   background-size: contain;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   border: 1px solid rgb(91, 91, 254);
 }
@@ -73,8 +78,8 @@ p {
 .btn5 {
   background: url(../images/5.png) no-repeat;
   background-size: contain;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   border: 1px solid rgb(91, 91, 254);
 }
